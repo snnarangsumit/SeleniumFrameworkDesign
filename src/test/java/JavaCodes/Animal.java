@@ -1,6 +1,6 @@
 package JavaCodes;
 
-//inheritance
+//inheritance example
 
 class Animal {
     String name;
