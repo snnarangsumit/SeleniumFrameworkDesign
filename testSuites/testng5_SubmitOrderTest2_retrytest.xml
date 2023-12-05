@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Submit Order Validation">
+
+<listeners>
+<listener class-name="TestComponents.Listeners"/>
+</listeners>
+
+    <test name="Functional">
+    <classes>
+      <class name="Tests.SubmitOrderTest4_retryAnalyzer"/>
+    </classes>
+  </test> 
+</suite> 

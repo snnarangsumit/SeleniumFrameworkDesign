@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite parallel = "tests" name="Suite"> 
+
+<listeners>
+<listener class-name="TestComponents.Listeners"/>
+</listeners>
+
+
+ <test thread-count="5" name="SubmitOrderTest1">
+    <classes>
+      <class name="Tests.SubmitOrderTest3_BaseClassFile"/>
+    </classes>
+ </test> <!-- Test -->
+  
+ <test thread-count="5" name="SubmitOrderTest2_PageObject">
+    <classes>
+      <class name="Tests.SubmitOrderTest4_retryAnalyzer"/>
+    </classes>
+</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
+
