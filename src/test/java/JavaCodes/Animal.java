@@ -1,4 +1,7 @@
 package JavaCodes;
+
+//inheritance
+
 class Animal {
     String name;
 
