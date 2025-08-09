@@ -18,6 +18,7 @@ import pageobjects.CartPage;
 import pageobjects.CheckoutPage;
 import pageobjects.LandingPage;
 import pageobjects.ProductCatalogue;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SubmitOrderTest2_PageObject {

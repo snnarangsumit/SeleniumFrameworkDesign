@@ -98,23 +98,23 @@ public class BaseTest {
 	
 	
 	
-	//List of hashmap: key:value
+	// List of hashmap: key:value
 	// Take json file as input then convert json to string and then string to Hashmap
 	
 	public List<HashMap<String, String>> getJsonDataToMap(String filePath) throws IOException
 	{
 		//read json to string
-	String jsonContent = 	FileUtils.readFileToString(new File(filePath), 
-			StandardCharsets.UTF_8);
+	String jsonContent = 	FileUtils.readFileToString(new File(filePath), StandardCharsets.UTF_8);
 	
-	//String to HashMap- Jackson Databind
+	   //String to HashMap- Jackson Databind
 	
 	ObjectMapper mapper = new ObjectMapper();
-	  List<HashMap<String, String>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String, String>>>() {
-      });
-	  return data;
+
+	List<HashMap<String, String>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String, String>>>() {});
+	 
+	return data;
 	
-	//{map, map}
+	  //{map, map}
 
 	}
 	

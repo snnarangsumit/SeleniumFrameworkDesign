@@ -9,10 +9,13 @@ public class StringDemo2 {
 		//How String objects  are stored in heap memory
 		String a = "hello";
 		String b = "hello";
+		
+		
 		//In java, string objects are immutable. Immutable simply means unmodifiable or unchangeable.
 		
 		a.concat("abc");
 		System.out.println(a);
+		
 //		As multiple reference variables are referring to same  object, if one reference variable changes
 //		the value of object, all other will be effected , so that is why they are immutable
 		

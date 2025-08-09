@@ -1,8 +1,21 @@
-C:\Users\snnar\OneDrive\Desktop\MainTarget_UDYAMI\1. Main_EFirm\2. SDET\3. Selenium\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\ConfirmationPage.java
-C:\Users\snnar\OneDrive\Desktop\MainTarget_UDYAMI\1. Main_EFirm\2. SDET\3. Selenium\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\ProductCatalogue.java
-C:\Users\snnar\OneDrive\Desktop\MainTarget_UDYAMI\1. Main_EFirm\2. SDET\3. Selenium\AutomationRepository\SeleniumFrameworkDesign\src\main\java\resources\ExtentReporterNG.java
-C:\Users\snnar\OneDrive\Desktop\MainTarget_UDYAMI\1. Main_EFirm\2. SDET\3. Selenium\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\LandingPage.java
-C:\Users\snnar\OneDrive\Desktop\MainTarget_UDYAMI\1. Main_EFirm\2. SDET\3. Selenium\AutomationRepository\SeleniumFrameworkDesign\src\main\java\AbstractComponents\AbstractComponent.java
-C:\Users\snnar\OneDrive\Desktop\MainTarget_UDYAMI\1. Main_EFirm\2. SDET\3. Selenium\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\CheckoutPage.java
-C:\Users\snnar\OneDrive\Desktop\MainTarget_UDYAMI\1. Main_EFirm\2. SDET\3. Selenium\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\OrderPage.java
-C:\Users\snnar\OneDrive\Desktop\MainTarget_UDYAMI\1. Main_EFirm\2. SDET\3. Selenium\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\CartPage.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\R1.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\PerformanceMetric.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\ConfirmationPage.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\locationgeo.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\MetricPojo.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\ProductCatalogue.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\NetIntercept.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\NetInterceptFail.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\pageLoad.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\netwEmul.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\LandingPage.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\basicauth.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\Networkreq.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\CartPage.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\CheckoutPage.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\pageobjects\OrderPage.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\offlinethrottle.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\scalable.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\AbstractComponents\AbstractComponent.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\resources\ExtentReporterNG.java
+C:\Users\snnar\OneDrive\Desktop\AutomationRepository\SeleniumFrameworkDesign\src\main\java\ptests\consoleLogEvent.java

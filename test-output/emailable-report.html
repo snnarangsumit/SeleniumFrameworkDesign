@@ -8,25 +8,24 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16,034</td><td></td><td></td></tr>
+<tr><th colspan="8">Submit Order Validation</th></tr>
+<tr><td><a href="#t0">Functional</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">2</td><td class="num">39,290</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Cucumber.TestNGTestRunner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1701635494772</td><td rowspan="1">14292</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Submit Order Validation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Functional &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">Tests.SubmitOrderTest3_BaseClassFile</td><td><a href="#m0">submitOrder</a></td><td rowspan="2">1753755060035</td><td rowspan="2">13391</td></tr><tr class="failedeven"><td><a href="#m1">submitOrder</a></td></tr><tr><th colspan="4">Functional &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Tests.SubmitOrderTest3_BaseClassFile</td><td><a href="#m2">OrderHistoryTest</a></td><td rowspan="1">1753755073799</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">Cucumber.TestNGTestRunner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Positive Test of Submitting the order&quot;</td><td>&quot;Purchase the order from Ecommerce Website&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1049, 653)
-  (Session info: chrome=119.0.6045.160)
+<h2>Functional</h2><h3 id="m0">Tests.SubmitOrderTest3_BaseClassFile#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at Tests.SubmitOrderTest3_BaseClassFile.submitOrder(SubmitOrderTest3_BaseClassFile.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Tests.SubmitOrderTest3_BaseClassFile#submitOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Test@1234, product=ZARA COAT 3, email=snnarangsumit61@gmail.com}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1050, 645)
+  (Session info: chrome=138.0.7204.169)
 Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e1039d1d6555121883b394e9b359b984, clickElement {id=89D8FA519E85421D601A45E6D4583DD2_element_120}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\snnar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60324}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60324/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (e1039d1d6555121883b394e9b359b984)] -&gt; class name: action__submit]
-Session ID: e1039d1d6555121883b394e9b359b984
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+Command: [355ae06036feb666bd520ec72e18e5e4, clickElement {id=f.94FAB2C3ADA55BDFCBF39AE34FE84014.d.7136220592D01F33792509F5F06A6DBB.e.124}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.169, chrome: {chromedriverVersion: 138.0.7204.168 (3e8d82e86e9..., userDataDir: C:\Users\snnar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60448}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60448/devtoo..., se:cdpVersion: 138.0.7204.169, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (355ae06036feb666bd520ec72e18e5e4)] -&gt; class name: action__submit]
+Session ID: 355ae06036feb666bd520ec72e18e5e4
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -36,15 +35,15 @@ Session ID: e1039d1d6555121883b394e9b359b984
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
 	at pageobjects.CheckoutPage.submitOrder(CheckoutPage.java:44)
-	at Cucumber.StepDefinitionImpl.checkout_submit_order(StepDefinitionImpl.java:55)
-	at ✽.Checkout ZARA COAT 3 and submit the order(file:///C:/Users/snnar/OneDrive/Desktop/MainTarget_UDYAMI/1.%20Main_EFirm/2.%20SDET/3.%20Selenium/AutomationRepository/SeleniumFrameworkDesign/src/test/java/Cucumber/SubmitOrder.feature:14)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at Tests.SubmitOrderTest3_BaseClassFile.submitOrder(SubmitOrderTest3_BaseClassFile.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Tests.SubmitOrderTest3_BaseClassFile#OrderHistoryTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Tests.SubmitOrderTest3_BaseClassFile.OrderHistoryTest() on instance Tests.SubmitOrderTest3_BaseClassFile@268f0ff3 depends on not successfully finished methods 
+[Tests.SubmitOrderTest3_BaseClassFile.submitOrder() on instance Tests.SubmitOrderTest3_BaseClassFile@268f0ff3]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

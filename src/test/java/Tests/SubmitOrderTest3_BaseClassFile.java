@@ -35,6 +35,7 @@ import pageobjects.OrderPage;
 import pageobjects.ProductCatalogue;
 
 public class SubmitOrderTest3_BaseClassFile extends BaseTest{
+	
 	String productName = "ZARA COAT 3";
 
 	// 1. BaseTest is parent class for reusable methods.; login, browser, data provider etc.
@@ -46,8 +47,6 @@ public class SubmitOrderTest3_BaseClassFile extends BaseTest{
 	@Test(dataProvider="getData",groups= {"Purchase"})
 	public void submitOrder(HashMap<String,String> input) throws IOException, InterruptedException
 	{
-
-		
 		ProductCatalogue productCatalogue = landingPage.loginApplication(input.get("email"), input.get("password"));
 		List<WebElement> products = productCatalogue.getProductList();
 		productCatalogue.addProductToCart(input.get("product"));

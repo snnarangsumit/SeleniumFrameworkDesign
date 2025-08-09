@@ -9,6 +9,7 @@
                 <exclude name ="Smoke"/>
             </run>
         </groups>
+        
     <classes>
       <class name="TestNgTutorial.day1"/>
       <class name="TestNgTutorial.day2"/>

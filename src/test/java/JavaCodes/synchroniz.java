@@ -23,11 +23,11 @@ public class synchroniz {
 		WebDriver driver=new ChromeDriver();
 		
 		//System.setProperty("webdrive.edge.driver", "/SeleniumProject1/msedgedriver.exe");
+		
 		//Edge launch
 		//WebDriver driver= new EdgeDriver();
 		
 	    //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		
 		driver.get("https://alaskatrips.poweredbygps.com/g/pt/hotels?MDPCID=ALASKA-US.TPS.BRAND.hotels.HOTEL");
 		driver.findElement(By.id("H-destination")).sendKeys("nyc");
 		driver.findElement(By.id("H-destination")).sendKeys(Keys.TAB);

@@ -14,6 +14,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 
@@ -83,6 +84,7 @@ public class SubmitOrderTest1 {
 	    //8-click on Checkout
 	   // driver.findElement(By.xpath("//button[contains(@class, 'btn-primary')]")).click();
 	    //driver.findElement(By.xpath("//button[text()='Checkout']")).click();
+	    
 	    //Javascript Click:
 	     WebElement checkout_button = driver.findElement(By.xpath("//button[text()='Checkout']"));
 	     ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", checkout_button);
@@ -99,8 +101,8 @@ public class SubmitOrderTest1 {
 	    
 	    //10-Click on place order
 	    //elementToBeClickable:
-	  //  wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".action__submit")));
-	   // driver.findElement(By.cssSelector(".action__submit")).click();
+	    //wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".action__submit")));
+	    // driver.findElement(By.cssSelector(".action__submit")).click();
 	
 	    //Javascript Click:
 	    WebElement place_order = driver.findElement(By.cssSelector(".action__submit"));
@@ -138,11 +140,13 @@ public class SubmitOrderTest1 {
  * stream().anyMatch
  * In Java Streams, the anyMatch operation is a terminal operation that checks whether any elements of the stream match a given predicate. It returns a boolean indicating whether at least one element of the stream satisfies the provided condition.
  * 
- * 
- * 
  * anyMatch, allMatch, and findFirst.
+ * 
  * parallel()
+ * 
  * parallel(), map(Function<T, R> mapper)
+ * 
  * sorted()
+ * 
  * distinct()
  * */

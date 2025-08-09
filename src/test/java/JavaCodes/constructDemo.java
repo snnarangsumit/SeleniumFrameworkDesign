@@ -1,11 +1,12 @@
 package JavaCodes;
+
 public class constructDemo {
 	
-	     // compiler will call implict constructor 
-		 // if you have not defined constructor block 
-		 //when ever you create an object constructor is called 
-		//block of code when ever an object is created }
-		
+	      // compiler will call implicit constructor 
+		  // if you have not defined constructor block 
+		  //when ever you create an object constructor is called 
+		  //block of code when ever an object is created }
+		 
 	
 	// Default public 
 	constructDemo()

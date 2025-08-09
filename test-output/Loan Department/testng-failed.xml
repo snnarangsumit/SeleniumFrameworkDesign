@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Personal loan(failed)">
+<suite thread-count="6" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestNgTutorial.Listeners"/>
+  </listeners>
+  <test thread-count="6" parallel="tests" name="Personal loan(failed)">
+    <parameter name="URL" value="personalloan.com"/>
     <classes>
-      <class name="TestNgTutorial.day3_DataProvider">
-        <methods>
-          <include name="befoclas"/>
-          <include name="Bfsuite"/>
-          <include name="beforeevery"/>
-          <include name="afteclas"/>
-          <include name="MobilesignoutcarLoan"/>
-          <include name="WebloginCarLoan"/>
-          <include name="afterevery"/>
-          <include name="APIcarLoan"/>
-        </methods>
-      </class> <!-- TestNgTutorial.day3_DataProvider -->
       <class name="TestNgTutorial.day1">
         <methods>
           <include name="Demo"/>
@@ -22,11 +14,6 @@
           <include name="afSyite"/>
         </methods>
       </class> <!-- TestNgTutorial.day1 -->
-      <class name="TestNgTutorial.day4">
-        <methods>
-          <include name="WebloginHomeLoan"/>
-        </methods>
-      </class> <!-- TestNgTutorial.day4 -->
     </classes>
   </test> <!-- Personal loan(failed) -->
 </suite> <!-- Failed suite [Loan Department] -->

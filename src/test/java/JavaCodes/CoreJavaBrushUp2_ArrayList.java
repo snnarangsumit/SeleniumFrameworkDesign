@@ -7,10 +7,8 @@ public class CoreJavaBrushUp2_ArrayList {
 		// TODO Auto-generated method stub
 
         //datatype variable = assignment
-
-		// array: fixed length
 		// array list: one of the class in java--
-		//variable length : dynamically grow size of array
+		// variable length : dynamically grow size of array
 		
 		int[] arr2= {1,2,3,4,5,6,7,8,9,122};		
 
@@ -44,7 +42,7 @@ public class CoreJavaBrushUp2_ArrayList {
  
 	//array: length method
 	//arraylist: size method
-		//arraylist: get
+	//arraylist: get
 	
 	
 	for(int i=0;i<a.size();i++)

@@ -21,7 +21,9 @@ public class StreamFilterExample {
 /*
 Stream<T> filter(Predicate<? super T> predicate)
 
-the filter method is used to create a new stream containing only the elements that are even (n % 2 == 0). The resulting stream is then collected into a list using the collect method.
+The filter method is used to create a new stream containing only the elements that are even (n % 2 == 0). 
+
+The resulting stream is then collected into a list using the collect method.
 
 Predicate is a functional interface that represents a predicate (a boolean-valued function) of one argument.
 

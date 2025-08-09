@@ -7,5 +7,7 @@
   <packages>
       <package name= "TestNgTutorial"/>         
   </packages>
+
   </test>
+
 </suite> 

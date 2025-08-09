@@ -7,7 +7,8 @@ import org.testng.annotations.Test;
 
 public class Annotations {
 
-	// Before Method: will run before each test method
+	//Before Method: will run before each test method
+	
 	//Before Test: run before any test method belonging to a <test> tag in your test suite
 	
 	@BeforeMethod

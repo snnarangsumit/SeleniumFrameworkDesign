@@ -1,11 +1,11 @@
 package TestNgTutorial;
 
 import org.testng.annotations.BeforeTest;
+
 import org.testng.annotations.Test;
 
 public class day2 {
 
-	
 	@Test(groups={"Smoke"})
 	public void ploan()
 	{
@@ -17,6 +17,5 @@ public class day2 {
 	{
 		System.out.println("I will execute first");
 	}
-
 
 }

@@ -21,6 +21,7 @@ public class AbstractComponent {
 	
 	WebDriver driver;
 
+
 	public AbstractComponent(WebDriver driver) {
 		
 		this.driver = driver;
@@ -62,6 +63,7 @@ public class AbstractComponent {
 		OrderPage orderPage = new OrderPage(driver);
 		return orderPage;
 	}
+	
 	public void waitForElementToDisappear(WebElement ele) throws InterruptedException
 	{
 		Thread.sleep(1000);
